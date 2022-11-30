@@ -1,10 +1,6 @@
-/** 
- * A SIMPLE DAILY JOURNAL
- * TODO: Get familiar with app {.get .post .listen }
- * * .render("xxx") xxx points to xxx.ejs file
-*/
-
-//jshint esversion:6
+//* A SIMPLE DAILY JOURNAL
+//TODO: Get familiar with app {.get .post .listen }
+//* .render("xxx") xxx points to xxx.ejs file
 
 const express = require("express");
 const bodyParser = require("body-parser");
