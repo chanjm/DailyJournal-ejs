@@ -6,7 +6,7 @@
         <h1><%= e.title %> </h1>
         <p>
             <%= `${e.message.substring(0,100)}...` %> 
-            <a href="/post/<%= e.title %> ">Read More</a>
+            <a href="/post/<%= e._id %>">Read More</a>
         </p>
     <% }) %>
 <%- include("./partials/footer") -%> 
